@@ -12,10 +12,10 @@ body, html {
 }
 
 .bgimg {
-  background-position: center;
+  background-position: top;
   background-size: cover;
-  background-image: url("vinoth.jpg");
-  min-height: 75%;
+  background-image: url("photo.png");
+  min-height: 50%;
 }
 
 .menu {
@@ -60,7 +60,7 @@ body, html {
 <div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
-    <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <img src="about-me.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
     <p>Data engineer</p>
     <div class="w3-panel w3-leftbar w3-light-grey">
       <p><i>Design, build, test, deploy and maintain data platform.</i></p>
@@ -70,27 +70,35 @@ body, html {
 </div>
 
 <!-- /uses Container -->
-<div class="w3-container" id="menu">
+<div class="w3-container" id="uses">
   <div class="w3-content" style="max-width:700px">
  
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">/uses</span></h5>
   
     <div class="w3-row w3-center w3-card w3-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Gadgets');" id="myLink">
         <div class="w3-col s6 tablink">Gadgets</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Softwares');">
         <div class="w3-col s6 tablink">Softwares</div>
       </a>
     </div>
 
-    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Notebook</h5>
+    <div id="Gadgets" class="w3-container menu w3-padding-48 w3-card">
+      <h5>💻 Notebook</h5>
       <p class="w3-text-grey">Dell</p><br>
+      <h5>🖥️ Monitor</h5>
+      <p class="w3-text-grey">U2719D - Dell UltraSharp LED monitor</p><br>
+      <h5>🎧 Headphone</h5>
+      <p class="w3-text-grey">WH1000XM3 - Sony Wireless Noise Cancelling Over Ear Headphones</p><br>
+      <h5>⌨ Keyboard and 🖱️ Mouse</h5>
+      <p class="w3-text-grey">MK240 NANO - Logitech Wireless Keyboard and Mouse Combo</p><br>
     </div>
 
-    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Editor</h5>
+    <div id="Softwares" class="w3-container menu w3-padding-48 w3-card">
+      <h5>IDE</h5>
+      <p class="w3-text-grey">PyCharm</p><br>
+      <h5>IDE</h5>
       <p class="w3-text-grey">PyCharm</p><br>
     </div>  
   </div>
